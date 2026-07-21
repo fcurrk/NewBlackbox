@@ -56,6 +56,10 @@
     <string name="uninstall_module_toast">Xposed模块请在管理界面卸载</string>
     <string name="other">其它</string>
     <string name="daemon_enable">开启守护进程</string>
+    <string name="use_vpn_network">使用VPN连接</string>
+    <string name="use_vpn_network_summary">让沙盒应用通过VPN连接网络(可以增强网络访问)</string>
+    <string name="disable_flag_secure">禁用安全窗口标志</string>
+    <string name="disable_flag_secure_summary">允许应用截图和录屏</string>
     <string name="gms_manager">GMS管理</string>
     <string name="jump_gms">跳转到GMS管理界面</string>
     <string name="enable_gms">开启服务</string>

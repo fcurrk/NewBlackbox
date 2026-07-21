@@ -1,8 +1,9 @@
 pluginManagement {
     repositories {
+        // JitPack 多个源
         maven { url "https://www.jitpack.io" }
-
-        google()
+        maven { url "https://jitpack.io" }
+        
         google {
             content {
                 includeGroupByRegex("com\\.android.*")
@@ -14,10 +15,14 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+        // JitPack 多个源
         maven { url "https://www.jitpack.io" }
+        maven { url "https://jitpack.io" }
+        
         google()
         mavenCentral()
     }

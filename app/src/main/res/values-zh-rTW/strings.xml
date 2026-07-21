@@ -55,6 +55,10 @@
     <string name="uninstall_module_toast">請在模塊管理器中卸載xposed模塊</string>
     <string name="other">其他</string>
     <string name="daemon_enable">守護進程</string>
+    <string name="use_vpn_network">使用VPN連接</string>
+    <string name="use_vpn_network_summary">讓沙盒應用透過VPN連接網絡(可以增強網絡訪問)</string>
+    <string name="disable_flag_secure">禁用安全視窗標誌</string>
+    <string name="disable_flag_secure_summary">允許應用截圖和錄屏</string>
     <string name="gms_manager">GMS管理</string>
     <string name="jump_gms">去找GMS管理</string>
     <string name="enable_gms">啟用服務</string>
